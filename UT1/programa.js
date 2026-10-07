@@ -1,2 +1,2 @@
 console.log("Hola, món");
-console.log("El meu nom és Juan");
+console.log("El meu nom és Juan Sastre");
