@@ -20,7 +20,6 @@ let Bytes = mida * GB;
 let bits = Bytes * 8;
 let bps = Mbps * 1000000;
 let segons = bits / bps;
-let minuts = segons / 60;
 
 console.log(`El temps de descàrrega del fitxer es de ${segons.toFixed(0)} segons`);
 console.log(`El temps de descàrrega del fitxer es de ${minuts.toFixed(1)} minuts`);
