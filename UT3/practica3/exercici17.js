@@ -17,7 +17,7 @@ if (hora2 < 10 || hora2 > 18 || capDeSetmana) {
 console.log("Accés denegat");
 }
 
-// No donarà Accés denegat, perquè totes son false
+// No donarà Accés denegat, perquè totes son falses
 
 // Cas C
 let hora3 = 17;
