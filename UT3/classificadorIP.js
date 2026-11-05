@@ -24,6 +24,9 @@ if (octet4 < 0 || octet4 > 255) {
 
 if (!valida) {
     console.log('Adreça no vàlida: cada octet ha de estar entre 0 i 255.');
+    if (!valida) {
+        return
+    }
 }   else {
     console.log(`La adreça IP és: ${octet1}.${octet2}.${octet3}.${octet4}`);
 }
@@ -67,6 +70,7 @@ switch (classe) {
 }
 
 if (classe === 'A' || classe === 'B' || classe === 'C') {
-    const mascara = prompt('Introdueix la mascara de subxarxa (en format decimal): ');
-    console.log(`La mascara de subxarxa és: ${mascara}`);
+    console.log('Tipus Privada')
+}   else {
+    console.log('Tipus Pública')
 }
